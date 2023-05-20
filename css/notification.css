@@ -1,0 +1,30 @@
+.notification {
+    background-color: #191970;
+    color: #fff;
+    text-decoration: none;
+    padding: 15px 26px;
+    position: relative;
+    display: inline-block;
+    border-radius: 2px;
+    margin-left: 20px;
+    margin-bottom: 20px;
+    width: 100px;
+}
+  
+.notification-full:hover {
+    background: #ff0000;
+}
+
+.notification:hover {
+    background: #00ff00;
+}
+  
+.notification .badge {
+    position: absolute;
+    top: -10px;
+    right: -10px;
+    padding: 5px 10px;
+    border-radius: 50%;
+    background: #ff0000;
+    color: #fff;
+}

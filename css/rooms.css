@@ -1,0 +1,51 @@
+.list-item-all {
+    width: 100%;
+    color: black;
+    padding: 5px 20px;
+    margin: 0;
+    text-decoration: none;
+    list-style: none;
+    font-size: 16px;
+    border-bottom: 1px solid #808080;
+}
+
+.tab {
+    background-color: #a2a2d0;
+    color: #fff;
+    font-weight: bold;
+    float: left;
+    border: 1px solid #000;
+    outline: none;
+    cursor: pointer;
+    padding: 14px 16px;
+    margin-bottom: -10px;
+    transition: 0.3s;
+    min-width: 170px;
+    max-height: 40px;
+}
+
+.current-tab {
+    background-color: #be4f62;
+}
+
+.nick {
+    font-size: 16px;
+    font-weight: bold;
+    background-color: #98fb98;
+    border-bottom: 1px solid #000;
+    border-left: 7px solid #006400;
+    padding: 10px;
+}
+
+.meu-nick {
+    font-size: 16px;
+    font-weight: bold;
+    background-color: #b9d9eb;
+    border-bottom: 1px solid #000;
+    border-left: 7px solid #006400;
+    padding: 10px;
+}
+
+.nick:hover, .meu-nick:hover {
+    background-color: #fff;
+}
